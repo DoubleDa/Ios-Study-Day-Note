@@ -3,47 +3,47 @@
 int main(int argc, char *argv[])
 {
 	/*
-	è¾“å‡ºä¿¡æ¯ï¼ˆå¤šè¡Œæ³¨é‡Šï¼‰
+	Êä³öĞÅÏ¢£¨¶àĞĞ×¢ÊÍ£©
 	*/
 	@autoreleasepool
 	{
-		//æ‰§è¡Œè¾“å‡ºï¼ˆå•è¡Œæ³¨é‡Šï¼‰
-		NSLog(@"Hello Objective-Cï¼");
-		//åˆ†éš”ç¬¦-åˆ†å·
+		//Ö´ĞĞÊä³ö£¨µ¥ĞĞ×¢ÊÍ£©
+		NSLog(@"Hello Objective-C£¡");
+		//·Ö¸ô·û-·ÖºÅ
 		int age=18;
-		NSString* name=@"å“’å“’";
-		NSString* hello=[@"ä½ å¥½ï¼" stringByAppendingString:@"Objective-C!"];
+		NSString* name=@"ßÕßÕ";
+		NSString* hello=[@"ÄãºÃ£¡" stringByAppendingString:@"Objective-C!"];
 
-		//èŠ±æ‹¬å·
+		//»¨À¨ºÅ
 		{
 
 		}
 
 /*
-æ–¹æ‹¬å·
+·½À¨ºÅ
 */
-//æ•°ç»„
+//Êı×é
 a[2]=89;
-//å¯¹è±¡æ–¹æ³•
-NSString* str=@"æˆ‘å¨ï¼ˆä¸Šæµ·ï¼‰ç§‘æŠ€æœ‰é™å…¬å¸";
-NSLog(@"å­—ç¬¦ä¸²é•¿åº¦ï¼š%ld",[str length]);
+//¶ÔÏó·½·¨
+NSString* str=@"ÎÒ³ø£¨ÉÏº££©¿Æ¼¼ÓĞÏŞ¹«Ë¾";
+NSLog(@"×Ö·û´®³¤¶È£º%ld",[str length]);
 
 type varName;
 
-//æ­£ç¡®
+//ÕıÈ·
 int value=68;
-//æç¤ºè­¦å‘Š
+//ÌáÊ¾¾¯¸æ
 int temp=99999999999999;
-//æ­£ç¡®
+//ÕıÈ·
 long long bigValue=99999999999999;
 NSLog(@"%d",temp);
 NSLog(@"%lld",bigValue);
 
-//å…«è¿›åˆ¶
+//°Ë½øÖÆ
 int temp=012;
-//åè¿›åˆ¶
+//Ê®½øÖÆ
 int data=12;
-//åå…­è¿›åˆ¶
+//Ê®Áù½øÖÆ
 int varName=0x13;
 int varName1=0X13;
 NSLog(@"%d",temp);
@@ -51,29 +51,29 @@ NSLog(@"%d",data);
 NSLog(@"%d",varName);
 NSLog(@"%d",varName1);
 
-//æ— ç¬¦å·æ•´å‹
+//ÎŞ·ûºÅÕûĞÍ
 unsigned int my=89;
 
-//å­—ç¬¦å‹
+//×Ö·ûĞÍ
 char aChar='A';
 char bChar='/r';
 char c=89;
 NSLog(@"%c",c);
-NSString s=@"æµ‹è¯•";
+NSString s=@"²âÊÔ";
 
-//æµ®ç‚¹å‹
+//¸¡µãĞÍ
 float/double/long double
 
 /*
-æšä¸¾å‹
+Ã¶¾ÙĞÍ
 */
-//æ–¹æ³•ä¸€ï¼šå…ˆå®šä¹‰æšä¸¾ç±»å‹ï¼Œå†ç”¨æšä¸¾ç±»å‹å®šä¹‰å˜é‡
+//·½·¨Ò»£ºÏÈ¶¨ÒåÃ¶¾ÙÀàĞÍ£¬ÔÙÓÃÃ¶¾ÙÀàĞÍ¶¨Òå±äÁ¿
 enum season{spring,summer,fall,winter};
 enum season type1,type2;
 type1=spring;
 type2=winter;
 
-//æ–¹æ³•äºŒï¼šå®šä¹‰æšä¸¾ç±»å‹æ—¶ç›´æ¥å®šä¹‰å˜é‡
+//·½·¨¶ş£º¶¨ÒåÃ¶¾ÙÀàĞÍÊ±Ö±½Ó¶¨Òå±äÁ¿
 enum {boy,girl} me,you;
 	}
 	return 0;
